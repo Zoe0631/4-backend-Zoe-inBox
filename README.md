@@ -25,9 +25,26 @@
 <br>
 
 
-## 📌 프로젝트 기획 및 설계
+## 📌 프로젝트 설계
+### 프로젝트 설계
 
-### 프로젝트 기획
+![image](https://user-images.githubusercontent.com/98700133/192185739-e8f5a95c-b806-4b67-a3e7-63dcec05958d.png)
+
+
+<br>
+
+### 프로젝트 DB 테이블
+- db diagram 이용해서 테이블 설계
+
+:clipboard: [테이블과 테이블 구성요소](https://closed-glade-095.notion.site/ERD-7c5b5591bc4049488209e1f8cf4c7439)
+
+
+<br>
+
+### 프로젝트 API 문서
+
+
+:clipboard: [API 문서](https://closed-glade-095.notion.site/IN-BOX-API-def2c1b66a254d8c98d76067260c553d)
 
 
 <br>
@@ -102,3 +119,13 @@ main
 
 <br>
 
+
+## 📌 개발 스택
+
+**주요 기술**
+
+`Java` `Spring` `MySQL`
+
+**경험해본 기술**
+
+`JPA` `AWS EC2 & RDS & ElasticSearch` `NGINX` `Docker` `Jenkins`
