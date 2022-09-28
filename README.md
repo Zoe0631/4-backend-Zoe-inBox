@@ -34,6 +34,15 @@
 
 <br>
 
+#### 자동 배포 서버
+
+> push 하면 webhook 을 당겨서 jenkins에서 github 코드를 clone 받음 -> 프로젝트 빌드 & docker image 로 빌드 -> docker private registry에 docker image push -> 운영 서버에서 docker image pull 내려받음 -> docker conatiner 띄우기 -> 완료시 슬랙에 알림
+
+### 
+
+
+<br>
+
 ### 프로젝트 DB 테이블
 - db diagram 이용해서 테이블 설계
 
@@ -130,3 +139,19 @@ main
 **경험해본 기술**
 
 `JPA` `AWS EC2 & RDS & ElasticSearch` `NGINX` `Docker` `Jenkins`
+
+
+## 📌 문제사항과 해결 방안
+
+### 1.
+
+:clipboard: [문제/해결 방안1 링크](https://closed-glade-095.notion.site/in-box-1-81b92965a5d84ed1b2671ad33faf41c1)
+
+### 2.
+
+:clipboard: [문제/해결 방안2 링크](https://closed-glade-095.notion.site/in-box-2-ef41754e9ab34d3cab95832ad47c0f93)
+
+
+### 3.
+
+:clipboard: [문제/해결 방안3 링크](https://closed-glade-095.notion.site/in-box-3-17adbff4f324437c89c29f1c9c2c20f1)
