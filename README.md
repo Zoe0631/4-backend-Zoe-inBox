@@ -27,9 +27,9 @@
 
 
 ## 📌 프로젝트 설계
-### 프로젝트 설계
+### 프로젝트 구조
 
-![image](https://user-images.githubusercontent.com/98700133/192185739-e8f5a95c-b806-4b67-a3e7-63dcec05958d.png)
+![image](https://user-images.githubusercontent.com/98700133/192685948-08ffb0de-0746-461e-86b5-4d850a12e8f6.png)
 
 
 <br>
@@ -42,10 +42,10 @@
 
 <br>
 
-### 프로젝트 API 문서
+### 프로젝트 API 설계
 
 
-:clipboard: [API 문서](https://closed-glade-095.notion.site/IN-BOX-API-def2c1b66a254d8c98d76067260c553d)
+:clipboard: [API 설계](https://closed-glade-095.notion.site/IN-BOX-API-def2c1b66a254d8c98d76067260c553d)
 
 
 <br>
