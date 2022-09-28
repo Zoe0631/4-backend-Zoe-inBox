@@ -29,8 +29,7 @@
 ## 📌 프로젝트 설계
 ### 프로젝트 구조
 
-![image](https://user-images.githubusercontent.com/98700133/192687858-f20b4a44-a450-4767-8792-cec15e785447.png)
-
+![001](https://user-images.githubusercontent.com/98700133/192776047-1db386b0-c80f-4dfc-b4ff-c82a0eccd6f3.png)
 
 <br>
 
@@ -38,7 +37,13 @@
 
 > push 하면 webhook 을 당겨서 jenkins에서 github 코드를 clone 받음 -> 프로젝트 빌드 & docker image 로 빌드 -> docker private registry에 docker image push -> 운영 서버에서 docker image pull 내려받음 -> docker conatiner 띄우기 -> 완료시 슬랙에 알림
 
-### 
+#### 운영 서버
+
+> NGINX 에 ssl 인증서 적용, 80포트로 접속하는 유저 443포트로 proxy pass
+
+#### 로그 수집 및 시각화
+
+>
 
 
 <br>
