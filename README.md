@@ -29,7 +29,7 @@
 ## 📌 프로젝트 설계
 ### 프로젝트 구조
 
-![image](https://user-images.githubusercontent.com/98700133/192685948-08ffb0de-0746-461e-86b5-4d850a12e8f6.png)
+![image](https://user-images.githubusercontent.com/98700133/192687858-f20b4a44-a450-4767-8792-cec15e785447.png)
 
 
 <br>
