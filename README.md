@@ -35,15 +35,15 @@
 
 #### 자동 배포 서버
 
-> push 하면 webhook 을 당겨서 jenkins에서 github 코드를 clone 받음 -> 프로젝트 빌드 & docker image 로 빌드 -> docker private registry에 docker image push -> 운영 서버에서 docker image pull 내려받음 -> docker conatiner 띄우기 -> 완료시 슬랙에 알림
+> github에 푸시하면 jenkins에서 repo를 clone 받음 -> 프로젝트 빌드 & docker image 로 빌드 -> docker private registry에 docker image push -> 운영 서버에서 docker image pull 내려받음 -> 백엔드 & 프론트 서버 docker conatiner 띄우기 -> 완료시 슬랙에 알림
 
 #### 운영 서버
 
 > NGINX 에 ssl 인증서 적용, 80포트로 접속하는 유저 443포트로 proxy pass
 
-#### 로그 수집 및 시각화
+#### 로그 수집 및 시각화 서버
 
->
+> docker container로 logstash 서버 띄움 -> logstash에서 AWS elastic search 로 수집한 로그 보내도록 config 작성
 
 
 <br>
@@ -145,6 +145,27 @@ main
 
 `JPA` `AWS EC2 & RDS & ElasticSearch` `NGINX` `Docker` `Jenkins`
 
+<br>
+
+## 📌 주요 기능
+ 
+ * 포트폴리오 업로드
+    
+    * .mp4/ .avi/ .webm/ .wmv/ .mov 확장자일 때만 유효성 검사를 통과
+    * 파일 이름은 sha256로 해싱된 정보 받기(64글자 고정)
+    * 포트폴리오 range 문자열로 정보 받아도 db에는 0,1 로 저장
+    * 차후 포트폴리오 업로드 시 다양한 파일을 업로드 할 가능성을 대비해서 portfolio와 file 테이블 따로 둠
+    
+
+* 이메일 인증번호 발송 및 인증번호 확인
+    
+    * 6자리의 랜덤한 수 유저 이메일로 발송
+    * 인증번호를 보낸 유저를 식별하기 위해서 유저 이메일 정보, ip, 유저 에이전트 정보 db에 저장
+    * 유저 에이전트 정보는 유저 정보 수집을 최소화하기 위해서 sha256으로 해싱
+    * db에 저장된 정보를 통해서 인증번호 확인
+    
+
+<br>
 
 ## 📌 문제사항과 해결 방안
 
@@ -160,3 +181,20 @@ main
 ### 3.
 
 :clipboard: [문제/해결 방안3 링크](https://closed-glade-095.notion.site/in-box-3-17adbff4f324437c89c29f1c9c2c20f1)
+
+
+<br>
+
+
+## 📌 프로젝트 진행 후 느낀 점과 개선하고 싶은 점
+
+### 느낀 점
+
+
+
+### 개선하고 싶은 점
+
+<br>
+
+
+## 📌 회고록
