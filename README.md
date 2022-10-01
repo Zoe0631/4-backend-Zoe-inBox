@@ -197,4 +197,27 @@ main
 
 ## 📌 실제 사이트 사진
 
+* 홈페이지
+
+![image](https://user-images.githubusercontent.com/98700133/193415389-38504791-f5c7-4cc0-adb3-0e19a0d53693.png)
+
+* 영상 조회 페이지
+
+![image](https://user-images.githubusercontent.com/98700133/193415460-d960b4c1-11d2-4bdb-a616-26f8fca9e2db.png)
+
+
+* 설정 페이지
+
+![image](https://user-images.githubusercontent.com/98700133/193415473-37121a13-1ecf-4d8e-9564-26945d26fcea.png)
+
+* 영상 업로드 - 인증 메일 보내기
+
+![image](https://user-images.githubusercontent.com/98700133/193415558-55fff3f0-86b8-45ba-ab1e-71d62035dd21.png)
+
+
+* 인증 메일 받기
+
+![image](https://user-images.githubusercontent.com/98700133/193415522-04b8f02a-9503-469a-8a45-36f57bbfe5e4.png)
+
+
 
