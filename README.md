@@ -221,13 +221,13 @@ main
 
 * 자동화배포를 위한 jenkins 대시보드
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/27234b67-c4ac-409a-a0cb-faf8865bb669/Untitled.png)
+![image](https://user-images.githubusercontent.com/98700133/193720062-e0d983bf-8292-474a-80d0-de6f6897d2b6.png)
 
 * slack - jenkins 빌드 완료 알림
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a8f2370c-c2be-4de0-9bff-b7cb6a3af81b/Untitled.png)
+![image](https://user-images.githubusercontent.com/98700133/193720090-fe07aa06-3085-4e82-815a-de6c675de05c.png)
 
 * kibana 로그 시각화 대시보드
     
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/7554fec2-a8ad-4e07-b7d1-e7243fe319d2/Untitled.png)
+![image](https://user-images.githubusercontent.com/98700133/193720168-f02d31f9-00d0-40bb-9006-1d5a1654d5c9.png)
 
