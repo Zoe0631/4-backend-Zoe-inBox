@@ -143,7 +143,7 @@ main
 
 **경험해본 기술**
 
-`JPA` `AWS EC2 & RDS & ElasticSearch` `NGINX` `Docker` `Jenkins`
+`JPA` `AWS EC2 & RDS` `NGINX` `Docker` `Jenkins`
 
 <br>
 
